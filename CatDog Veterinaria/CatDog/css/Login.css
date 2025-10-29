@@ -30,25 +30,19 @@ body{
     max-width: 100%;
     min-height: 80%;
 }
-
+/* Espaçamento */
 .container p{
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.3px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .container span{
     font-size: 12px;
 }
 
-.container a{
-    color: #333;
-    font-size: 13px;
-    text-decoration: none;
-    margin: 15px 0 10px;
-}
-
+/* Botoes */
 .container button{
     background-color: #EC8C2C;
     color: #fff;
@@ -58,7 +52,7 @@ body{
     border-radius: 8px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -73,14 +67,14 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 30px;
+    padding: 0 60px;
     height: 100%;
 }
-
+/* Abas de Cadastro */
 .container input{
     background-color: #eee;
     border: none;
-    margin: 8px 0;
+    margin: 7px 0;
     padding: 10px 15px;
     font-size: 13px;
     border-radius: 8px;
@@ -99,6 +93,7 @@ body{
     left: 0;
     width: 50%;
     z-index: 2;
+    top: -15px;
 }
 
 .container.active .sign-in{
@@ -145,7 +140,7 @@ body{
     transform: translateX(-100%);
     
 }
-
+/* Painel */
 .toggle{
     background-color: #EC8C2C;
     height: 100%;
@@ -162,13 +157,13 @@ body{
 .container.active .toggle{
     transform: translateX(50%);
 }
-
+/* Logo */
 .toggle-panel{
     background-image: url('../img/Logo\ completa.png');
     background-repeat: no-repeat;
     background-size: 80%;
     background-position-x: 30%;
-    background-position-y: 27%;
+    background-position-y: 24%;
     position: absolute;
     width: 50%;
     height: 100%;
