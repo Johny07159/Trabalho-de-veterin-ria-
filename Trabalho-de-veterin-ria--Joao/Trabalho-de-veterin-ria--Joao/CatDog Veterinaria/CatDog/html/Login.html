@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatDog</title>
+
+    <!-- Fonts e Ícones -->
+    <link href="https://fonts.cdnfonts.com/css/tt-fors-trial" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../css/Login.css">
+
+</head>
+
+<body>
+
+  <div class="container" id="authBox">
+
+    <h2 id="title">Login</h2>
+
+    <div id="loginForm">
+      <div class="input-group">
+        <label>Email:</label>
+        <input type="email" id="loginEmail" />
+      </div>
+
+      <div class="input-group">
+        <label>Senha:</label>
+        <input type="password" id="loginSenha" />
+      </div>
+
+      <button onclick="login()">Entrar</button>
+      <div class="toggle" onclick="showCadastro()">Não tem conta? Cadastre-se</div>
+    </div>
+
+    <div id="cadastroForm" style="display:none;">
+      <div class="input-group">
+        <label>Nome Completo:</label>
+        <input type="text" id="cadNome" />
+      </div>
+
+      <div class="input-group">
+        <label>Email:</label>
+        <input type="email" id="cadEmail" />
+      </div>
+
+      <div class="input-group">
+        <label>Senha:</label>
+        <input type="password" id="cadSenha" />
+      </div>
+
+      <button onclick="cadastrar()">Cadastrar</button>
+      <div class="toggle" onclick="showLogin()">Já tem conta? Entrar</div>
+    </div>
+
+  </div>
+
+  <div class="container" id="home">
+    <h2>Bem-vindo à Home! ✔</h2>
+    <p>Acesso autorizado.</p>
+  </div>
+
+
+    <!-- Scripts Bootstrap e seu JS -->
+    <script src="../js/Login.js"></script>
+</body>
+
+</html>
